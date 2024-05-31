@@ -2,9 +2,11 @@
 If multi-threading is not implemented, a slow page request can block access to the home page, causing significant delays.
 
 When handling requests with a single-threaded worker, each request must be processed one after the other. In a typical scenario, the home page request takes around 2 milliseconds to process.
+
 ・Home page 
 ![image](https://github.com/syuusei3/worker-threads/assets/49019219/e10773f8-2190-474f-929d-1a781639473c)
 On the other hand, a slow page request can take anywhere from 3.0 to 8.0 seconds to complete.
+
 ・Slow page
 ![image](https://github.com/syuusei3/worker-threads/assets/49019219/6bf7723b-889b-4382-8865-0020b6755b98)
 
