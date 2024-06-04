@@ -25,12 +25,11 @@ Without multi-threading, the slow page request holds up the processing queue, si
 
 
 If you would like to try no-thread.
-
-'''
+```command
 node main-thread.js
-'''
+```
 
 If you would like to try multi-thread.
-'''
+```command
 node main-multithread.js
-'''
+```
