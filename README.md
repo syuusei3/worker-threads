@@ -22,3 +22,15 @@ Here's the sequence:
 ![image](https://github.com/syuusei3/worker-threads/assets/49019219/46cb575d-4125-4e74-8181-7061a3d692ab)
 
 Without multi-threading, the slow page request holds up the processing queue, significantly delaying the response time for the home page and any other requests that follow.
+
+
+If you would like to try no-thread.
+
+'''
+node main-thread.js
+'''
+
+If you would like to try multi-thread.
+'''
+node main-multithread.js
+'''
