@@ -24,12 +24,12 @@ Here's the sequence:
 Without multi-threading, the slow page request holds up the processing queue, significantly delaying the response time for the home page and any other requests that follow.
 
 
-If you would like to try no-thread.
+If you would like to try no-multithread.
 ```command
 node main-thread.js
 ```
 
-If you would like to try multi-thread.
+If you would like to try multithread.
 ```command
 node main-multithread.js
 ```
